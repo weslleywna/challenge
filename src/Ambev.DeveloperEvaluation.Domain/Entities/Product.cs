@@ -1,6 +1,7 @@
 ﻿using Ambev.DeveloperEvaluation.Common.Validation;
 using Ambev.DeveloperEvaluation.Domain.Common;
 using Ambev.DeveloperEvaluation.Domain.Validation;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Ambev.DeveloperEvaluation.Domain.Entities
 {
@@ -15,6 +16,14 @@ namespace Ambev.DeveloperEvaluation.Domain.Entities
         public required decimal UnitPrice { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime? UpdatedAt { get; set; }
+
+        public void Update(string name, string description, decimal unitPrice)
+        {
+            Name = name;
+            Description = description;
+            UnitPrice = unitPrice;
+            UpdatedAt = DateTime.UtcNow;
+        }
 
         public ValidationResultDetail Validate()
         {

@@ -1,78 +1,246 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\",
+  "WorkspaceRootPath": "D:\\Git\\challenge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54E6E012-F460-4A2B-95C5-27A2EF18A713}|tests\\Ambev.DeveloperEvaluation.Unit\\Ambev.DeveloperEvaluation.Unit.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\tests\\ambev.developerevaluation.unit\\domain\\entities\\usertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54E6E012-F460-4A2B-95C5-27A2EF18A713}|tests\\Ambev.DeveloperEvaluation.Unit\\Ambev.DeveloperEvaluation.Unit.csproj|solutionrelative:tests\\ambev.developerevaluation.unit\\domain\\entities\\usertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\updateproduct\\updateproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\updateproduct\\updateproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B62C8404-A5FA-4D58-9398-1E3C55C28D14}|src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.orm\\ambev.developerevaluation.orm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B62C8404-A5FA-4D58-9398-1E3C55C28D14}|src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj|solutionrelative:src\\ambev.developerevaluation.orm\\ambev.developerevaluation.orm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\updateproduct\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\updateproduct\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.webapi\\features\\users\\createuser\\createuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\getproduct\\getproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\getproduct\\getproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\users\\getuser\\getuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\users\\getuser\\getuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\users\\getuser\\getuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\users\\getuser\\getuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\createproduct\\createproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\createproduct\\createproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\updateproduct\\updateproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\updateproduct\\updateproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\createproduct\\createproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\createproduct\\createproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\updateproduct\\updateproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\updateproduct\\updateproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\createproduct\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\createproduct\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\updateproduct\\updateproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\updateproduct\\updateproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\createproduct\\createproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\createproduct\\createproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\getproduct\\getproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\getproduct\\getproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\getproduct\\getproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\getproduct\\getproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\getproduct\\getproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\getproduct\\getproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\deleteproduct\\deleteproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\deleteproduct\\deleteproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\deleteproduct\\deleteproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\deleteproduct\\deleteproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\products\\deleteproduct\\deleteproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\deleteproduct\\deleteproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\users\\deleteuser\\deleteuserrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\users\\deleteuser\\deleteuserrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\createproduct\\createproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\createproduct\\createproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\users\\createuser\\createuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\users\\createuser\\createuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.webapi\\features\\users\\createuser\\createuserrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\users\\createuser\\createuserrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B19079B3-A9DD-4408-9ED2-899D735C66BF}|src\\Ambev.DeveloperEvaluation.Domain\\Ambev.DeveloperEvaluation.Domain.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19079B3-A9DD-4408-9ED2-899D735C66BF}|src\\Ambev.DeveloperEvaluation.Domain\\Ambev.DeveloperEvaluation.Domain.csproj|solutionrelative:src\\ambev.developerevaluation.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.webapi\\features\\users\\createuser\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\users\\createuser\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.webapi\\features\\users\\createuser\\createuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\users\\createuser\\createuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\users\\createuser\\createuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.application\\users\\getuser\\getuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\createproduct\\createproductresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\createproduct\\createproductresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\createproduct\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\createproduct\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\users\\createuser\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\users\\createuser\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\users\\createuser\\createuserrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\users\\createuser\\createuserrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\features\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\mappings\\createuserrequestprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\mappings\\createuserrequestprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.webapi\\common\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\common\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\updateproduct\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\updateproduct\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\updateproduct\\updateproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\updateproduct\\updateproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62C8404-A5FA-4D58-9398-1E3C55C28D14}|src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.orm\\mapping\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62C8404-A5FA-4D58-9398-1E3C55C28D14}|src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj|solutionrelative:src\\ambev.developerevaluation.orm\\mapping\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\updateproduct\\updateproductresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\updateproduct\\updateproductresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\getproduct\\getproductresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\getproduct\\getproductresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\updateproduct\\updateproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\updateproduct\\updateproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62C8404-A5FA-4D58-9398-1E3C55C28D14}|src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.orm\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62C8404-A5FA-4D58-9398-1E3C55C28D14}|src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj|solutionrelative:src\\ambev.developerevaluation.orm\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19079B3-A9DD-4408-9ED2-899D735C66BF}|src\\Ambev.DeveloperEvaluation.Domain\\Ambev.DeveloperEvaluation.Domain.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19079B3-A9DD-4408-9ED2-899D735C66BF}|src\\Ambev.DeveloperEvaluation.Domain\\Ambev.DeveloperEvaluation.Domain.csproj|solutionrelative:src\\ambev.developerevaluation.domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\getproduct\\getproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\getproduct\\getproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\deleteproduct\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\deleteproduct\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\getproduct\\getproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\getproduct\\getproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\getproduct\\getproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\getproduct\\getproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\users\\getuser\\getuserresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\users\\getuser\\getuserresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\getproduct\\getproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\getproduct\\getproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\users\\getuser\\getuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\users\\getuser\\getuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\users\\getuser\\getuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\users\\getuser\\getuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\users\\getuser\\getuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\users\\getuser\\getuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.application\\users\\createuser\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\users\\createuser\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\users\\getuser\\getusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\users\\getuser\\getusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.application\\users\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\users\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\users\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B19079B3-A9DD-4408-9ED2-899D735C66BF}|src\\Ambev.DeveloperEvaluation.Domain\\Ambev.DeveloperEvaluation.Domain.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.domain\\events\\userregisteredevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B19079B3-A9DD-4408-9ED2-899D735C66BF}|src\\Ambev.DeveloperEvaluation.Domain\\Ambev.DeveloperEvaluation.Domain.csproj|solutionrelative:src\\ambev.developerevaluation.domain\\events\\userregisteredevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\users\\deleteuser\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\users\\deleteuser\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B19079B3-A9DD-4408-9ED2-899D735C66BF}|src\\Ambev.DeveloperEvaluation.Domain\\Ambev.DeveloperEvaluation.Domain.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B19079B3-A9DD-4408-9ED2-899D735C66BF}|src\\Ambev.DeveloperEvaluation.Domain\\Ambev.DeveloperEvaluation.Domain.csproj|solutionrelative:src\\ambev.developerevaluation.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\deleteproduct\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\deleteproduct\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AF79501-F785-4B98-8EE5-54BE186D67A2}|docker-compose.dcproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4AF79501-F785-4B98-8EE5-54BE186D67A2}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AF79501-F785-4B98-8EE5-54BE186D67A2}|docker-compose.dcproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4AF79501-F785-4B98-8EE5-54BE186D67A2}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E1EFB67-8305-423C-9E09-CBC62465FA18}|src\\Ambev.DeveloperEvaluation.Common\\Ambev.DeveloperEvaluation.Common.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.common\\security\\authenticationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E1EFB67-8305-423C-9E09-CBC62465FA18}|src\\Ambev.DeveloperEvaluation.Common\\Ambev.DeveloperEvaluation.Common.csproj|solutionrelative:src\\ambev.developerevaluation.common\\security\\authenticationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0DDDE39-2D65-4AF5-90D4-F35D87A79009}|src\\Ambev.DeveloperEvaluation.IoC\\Ambev.DeveloperEvaluation.IoC.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.ioc\\moduleinitializers\\applicationmoduleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0DDDE39-2D65-4AF5-90D4-F35D87A79009}|src\\Ambev.DeveloperEvaluation.IoC\\Ambev.DeveloperEvaluation.IoC.csproj|solutionrelative:src\\ambev.developerevaluation.ioc\\moduleinitializers\\applicationmoduleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E1EFB67-8305-423C-9E09-CBC62465FA18}|src\\Ambev.DeveloperEvaluation.Common\\Ambev.DeveloperEvaluation.Common.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.common\\validation\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E1EFB67-8305-423C-9E09-CBC62465FA18}|src\\Ambev.DeveloperEvaluation.Common\\Ambev.DeveloperEvaluation.Common.csproj|solutionrelative:src\\ambev.developerevaluation.common\\validation\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.application\\users\\deleteuser\\deleteuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\users\\deleteuser\\deleteuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\users\\deleteuser\\deleteuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\deleteproduct\\deleteproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\deleteproduct\\deleteproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\deleteproduct\\deleteproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\deleteproduct\\deleteproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\users\\deleteuser\\deleteuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\users\\deleteuser\\deleteuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\users\\deleteuser\\deleteuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\users\\deleteuser\\deleteuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DDDE39-2D65-4AF5-90D4-F35D87A79009}|src\\Ambev.DeveloperEvaluation.IoC\\Ambev.DeveloperEvaluation.IoC.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.ioc\\moduleinitializers\\infrastructuremoduleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DDDE39-2D65-4AF5-90D4-F35D87A79009}|src\\Ambev.DeveloperEvaluation.IoC\\Ambev.DeveloperEvaluation.IoC.csproj|solutionrelative:src\\ambev.developerevaluation.ioc\\moduleinitializers\\infrastructuremoduleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\createproduct\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\createproduct\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|d:\\git\\challenge\\src\\ambev.developerevaluation.application\\products\\createproduct\\createproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\products\\createproduct\\createproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +250,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 348,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,233 +262,783 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserTests.cs",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\tests\\Ambev.DeveloperEvaluation.Unit\\Domain\\Entities\\UserTests.cs",
-              "RelativeDocumentMoniker": "tests\\Ambev.DeveloperEvaluation.Unit\\Domain\\Entities\\UserTests.cs",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\tests\\Ambev.DeveloperEvaluation.Unit\\Domain\\Entities\\UserTests.cs",
-              "RelativeToolTip": "tests\\Ambev.DeveloperEvaluation.Unit\\Domain\\Entities\\UserTests.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAADAAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T19:03:59.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateUserCommand.cs",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Users\\CreateUser\\CreateUserCommand.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Users\\CreateUser\\CreateUserCommand.cs",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Users\\CreateUser\\CreateUserCommand.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Users\\CreateUser\\CreateUserCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:53:28.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateUserResponse.cs",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserResponse.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserResponse.cs",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserResponse.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserResponse.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:52:04.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CreateUserRequestValidator.cs",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequestValidator.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequestValidator.cs",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequestValidator.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequestValidator.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "GetUserRequest.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\GetUser\\GetUserRequest.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\GetUser\\GetUserRequest.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\GetUser\\GetUserRequest.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\GetUser\\GetUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:52:02.8Z",
+              "WhenOpened": "2025-04-28T05:19:09.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CreateUserRequest.cs",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequest.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequest.cs",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequest.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "GetUserProfile.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\GetUser\\GetUserProfile.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\GetUser\\GetUserProfile.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\GetUser\\GetUserProfile.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\GetUser\\GetUserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:51:47.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateUserProfile.cs",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserProfile.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserProfile.cs",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserProfile.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:51:59.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserRegisteredEvent.cs",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Domain\\Events\\UserRegisteredEvent.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Domain\\Events\\UserRegisteredEvent.cs",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Domain\\Events\\UserRegisteredEvent.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Domain\\Events\\UserRegisteredEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:51:36.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Program.cs",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Program.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Program.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAswEQAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T00:32:00.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Ambev.DeveloperEvaluation.ORM",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-11T18:56:22.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateUserHandler.cs",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Users\\CreateUser\\CreateUserHandler.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Users\\CreateUser\\CreateUserHandler.cs",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Users\\CreateUser\\CreateUserHandler.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Users\\CreateUser\\CreateUserHandler.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T00:34:25.189Z",
+              "WhenOpened": "2025-04-28T05:19:08.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "GetUserHandler.cs",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserHandler.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserHandler.cs",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserHandler.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserHandler.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAABoAAAAZAAAA",
+              "Title": "UpdateProductRequestValidator.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductRequestValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductRequestValidator.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductRequestValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T00:34:44.368Z",
+              "WhenOpened": "2025-04-28T05:10:41.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateProductResponse.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductResponse.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductResponse.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductResponse.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:03:24.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateProductResponse.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductResponse.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductResponse.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductResponse.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:10:51.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowE8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:57:58.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetProductRequest.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductRequest.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductRequest.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductRequest.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:09:35.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateProductCommand.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductCommand.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductCommand.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductCommand.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductCommand.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAD4vx8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:35:32.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateProductRequestValidator.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductRequestValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductRequestValidator.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductRequestValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:03:14.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateProductRequest.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductRequest.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductRequest.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductRequest.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:10:27.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateProductRequest.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductRequest.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductRequest.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductRequest.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:02:59.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Domain\\Entities\\User.cs",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Domain\\Entities\\User.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "UpdateProductProfile.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductProfile.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductProfile.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductProfile.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\UpdateProduct\\UpdateProductProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:51:16.958Z",
+              "WhenOpened": "2025-04-28T05:10:14.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateProductProfile.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductProfile.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductProfile.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductProfile.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\CreateProduct\\CreateProductProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:02:48.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-11-11T18:50:30.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApplicationModuleInitializer.cs",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.IoC\\ModuleInitializers\\ApplicationModuleInitializer.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.IoC\\ModuleInitializers\\ApplicationModuleInitializer.cs",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.IoC\\ModuleInitializers\\ApplicationModuleInitializer.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.IoC\\ModuleInitializers\\ApplicationModuleInitializer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABPAAAA",
+              "Title": "GetProductResponse.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductResponse.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductResponse.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductResponse.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T00:37:31.457Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ValidationBehavior.cs",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Common\\Validation\\ValidationBehavior.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Common\\Validation\\ValidationBehavior.cs",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Common\\Validation\\ValidationBehavior.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Common\\Validation\\ValidationBehavior.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T00:36:15.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DeleteUserHandler.cs",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserHandler.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserHandler.cs",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserHandler.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T00:34:33.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "docker-compose.dcproj",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\docker-compose.dcproj",
-              "RelativeDocumentMoniker": "docker-compose.dcproj",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\docker-compose.dcproj",
-              "RelativeToolTip": "docker-compose.dcproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-07T00:30:51.631Z",
+              "WhenOpened": "2025-04-28T05:09:57.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "AuthenticationExtension.cs",
-              "DocumentMoniker": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Common\\Security\\AuthenticationExtension.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Common\\Security\\AuthenticationExtension.cs",
-              "ToolTip": "D:\\tmp\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.Common\\Security\\AuthenticationExtension.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Common\\Security\\AuthenticationExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "Title": "GetProductRequestValidator.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductRequestValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductRequestValidator.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductRequestValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T00:39:02.953Z"
+              "WhenOpened": "2025-04-28T05:09:47.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetProductProfile.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductProfile.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductProfile.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductProfile.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\GetProduct\\GetProductProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:09:13.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DeleteProductRequestValidator.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\DeleteProduct\\DeleteProductRequestValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\DeleteProduct\\DeleteProductRequestValidator.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\DeleteProduct\\DeleteProductRequestValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\DeleteProduct\\DeleteProductRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:11:26.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DeleteProductRequest.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\DeleteProduct\\DeleteProductRequest.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\DeleteProduct\\DeleteProductRequest.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\DeleteProduct\\DeleteProductRequest.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\DeleteProduct\\DeleteProductRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:11:14.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DeleteProductProfile.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\DeleteProduct\\DeleteProductProfile.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\DeleteProduct\\DeleteProductProfile.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\DeleteProduct\\DeleteProductProfile.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\DeleteProduct\\DeleteProductProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:11:01.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DeleteUserRequestValidator.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\DeleteUser\\DeleteUserRequestValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\DeleteUser\\DeleteUserRequestValidator.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\DeleteUser\\DeleteUserRequestValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\DeleteUser\\DeleteUserRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:16:28.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateUserProfile.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserProfile.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserProfile.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserProfile.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:03:28.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateUserResponse.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserResponse.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserResponse.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserResponse.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:04:56.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Domain\\Entities\\Product.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:47:51.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateProductValidator.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductValidator.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T03:51:16.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateProductResult.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductResult.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductResult.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductResult.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T03:53:30.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductCommand.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductCommand.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T03:50:05.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequest.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequest.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:04:34.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateUserRequestValidator.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequestValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequestValidator.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequestValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\CreateUser\\CreateUserRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:04:48.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\UsersController.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\UsersController.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\UsersController.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Users\\UsersController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAswHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:58:02.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateUserRequestProfile.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Mappings\\CreateUserRequestProfile.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Mappings\\CreateUserRequestProfile.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Mappings\\CreateUserRequestProfile.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Mappings\\CreateUserRequestProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:56:03.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Common\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Common\\PaginatedList.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.WebApi\\Common\\PaginatedList.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Common\\PaginatedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:55:46.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\ProductConfiguration.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\ProductConfiguration.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\ProductConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:52:19.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UpdateProductHandler.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductHandler.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductHandler.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductHandler.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductHandler.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwBAAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:35:41.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UpdateProductProfile.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductProfile.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductProfile.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductProfile.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:35:52.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UpdateProductResult.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductResult.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductResult.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductResult.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:36:01.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UpdateProductValidator.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductValidator.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\UpdateProduct\\UpdateProductValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:36:10.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.ORM\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.ORM\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.ORM\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:04:28.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GetProductResult.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductResult.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductResult.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductResult.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:24:58.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Domain\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Domain\\Repositories\\IProductRepository.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Domain\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Domain\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:05:10.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GetProductHandler.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductHandler.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductHandler.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductHandler.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:24:40.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductCommand.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductCommand.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:14:25.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GetProductCommand.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductCommand.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductCommand.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductCommand.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:24:30.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GetUserResult.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserResult.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserResult.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserResult.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:27:57.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "GetUserValidator.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserValidator.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:28:17.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "GetUserProfile.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserProfile.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserProfile.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserProfile.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:27:23.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GetUserHandler.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserHandler.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserHandler.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserHandler.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:26:43.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "GetProductValidator.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductValidator.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:25:07.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "GetProductProfile.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductProfile.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductProfile.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductProfile.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:24:48.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GetUserCommand.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserCommand.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserCommand.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserCommand.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:25:10.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DeleteUserCommand.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserCommand.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserCommand.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserCommand.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:21:24.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\CreateUser\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Users\\CreateUser\\CreateUserCommand.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\CreateUser\\CreateUserCommand.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Users\\CreateUser\\CreateUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T03:50:45.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "DeleteProductHandler.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductHandler.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductHandler.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductHandler.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBEAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:16:16.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DeleteProductValidator.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductValidator.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:20:32.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "DeleteProductResponse.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductResponse.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductResponse.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductResponse.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\DeleteProduct\\DeleteProductResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:19:39.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "DeleteUserHandler.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserHandler.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserHandler.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserHandler.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:16:25.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "DeleteUserResponse.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserResponse.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserResponse.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserResponse.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:19:47.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "DeleteUserValidator.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserValidator.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Users\\DeleteUser\\DeleteUserValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:20:38.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "InfrastructureModuleInitializer.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.IoC\\ModuleInitializers\\InfrastructureModuleInitializer.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.IoC\\ModuleInitializers\\InfrastructureModuleInitializer.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.IoC\\ModuleInitializers\\InfrastructureModuleInitializer.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.IoC\\ModuleInitializers\\InfrastructureModuleInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:12:56.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CreateProductProfile.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductProfile.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductProfile.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductProfile.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T03:54:40.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CreateProductHandler.cs",
+              "DocumentMoniker": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductHandler.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductHandler.cs",
+              "ToolTip": "D:\\Git\\challenge\\src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductHandler.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwDMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T03:52:13.332Z",
+              "EditorCaption": ""
             }
           ]
         },

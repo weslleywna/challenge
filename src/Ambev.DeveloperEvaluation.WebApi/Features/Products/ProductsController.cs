@@ -8,6 +8,8 @@ using Ambev.DeveloperEvaluation.Application.Products.CreateProduct;
 using Ambev.DeveloperEvaluation.WebApi.Features.Products.GetProduct;
 using Ambev.DeveloperEvaluation.Application.Products.GetProduct;
 using Ambev.DeveloperEvaluation.WebApi.Features.Products.DeleteProduct;
+using Ambev.DeveloperEvaluation.WebApi.Features.Products.UpdateProduct;
+using Ambev.DeveloperEvaluation.Application.Products.UpdateProduct;
 
 namespace Ambev.DeveloperEvaluation.WebApi.Features.Users;
 
@@ -33,7 +35,7 @@ public class ProductsController : BaseController
     }
 
     /// <summary>
-    /// Creates a new user
+    /// Creates a new product
     /// </summary>
     /// <param name="request">The user creation request</param>
     /// <param name="cancellationToken">Cancellation token</param>
@@ -57,6 +59,34 @@ public class ProductsController : BaseController
             Success = true,
             Message = "User created successfully",
             Data = _mapper.Map<CreateProductResponse>(response)
+        });
+    }
+
+    /// <summary>
+    /// Update a product
+    /// </summary>
+    /// <param name="request">The product update request</param>
+    /// <param name="cancellationToken">Cancellation token</param>
+    /// <returns>The updated product details</returns>
+    [HttpPut]
+    [ProducesResponseType(typeof(ApiResponseWithData<UpdateProductResponse>), StatusCodes.Status201Created)]
+    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
+    public async Task<IActionResult> UpdateProduct([FromBody] UpdateProductRequest request, CancellationToken cancellationToken)
+    {
+        var validator = new UpdateProductRequestValidator();
+        var validationResult = await validator.ValidateAsync(request, cancellationToken);
+
+        if (!validationResult.IsValid)
+            return BadRequest(validationResult.Errors);
+
+        var command = _mapper.Map<UpdateProductCommand>(request);
+        var response = await _mediator.Send(command, cancellationToken);
+
+        return Created(string.Empty, new ApiResponseWithData<UpdateProductResponse>
+        {
+            Success = true,
+            Message = "User created successfully",
+            Data = _mapper.Map<UpdateProductResponse>(response)
         });
     }
 

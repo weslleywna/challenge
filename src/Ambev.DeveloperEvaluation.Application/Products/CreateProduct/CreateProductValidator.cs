@@ -16,7 +16,7 @@ namespace Ambev.DeveloperEvaluation.Application.Products.CreateProduct
         public CreateProductValidator()
         {
             RuleFor(product => product.Name).NotEmpty().Length(3, 200);
-            RuleFor(product => product.Price).GreaterThan(0);
+            RuleFor(product => product.UnitPrice).GreaterThan(0);
         }
     }
 }

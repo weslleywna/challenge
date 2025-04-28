@@ -1,5 +1,4 @@
-﻿using Ambev.DeveloperEvaluation.Application.Users.CreateUser;
-using Ambev.DeveloperEvaluation.Common.Validation;
+﻿using Ambev.DeveloperEvaluation.Common.Validation;
 using MediatR;
 
 namespace Ambev.DeveloperEvaluation.Application.Products.CreateProduct
@@ -21,7 +20,9 @@ namespace Ambev.DeveloperEvaluation.Application.Products.CreateProduct
     {
         public string Name { get; set; } = string.Empty;
 
-        public double Price { get; set; }
+        public string Description { get; set; } = string.Empty;
+
+        public decimal UnitPrice { get; set; }
 
         public ValidationResultDetail Validate()
         {

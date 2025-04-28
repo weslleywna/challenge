@@ -9,8 +9,16 @@ namespace Ambev.DeveloperEvaluation.Domain.Entities
         public required decimal UnitPrice { get; set; }
         public required int Quantity { get; set; }
         public decimal Discount { get; set; }
-        public decimal TotalAmount { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
+
+        public void Update(Guid productId, string productName, decimal unitPrice, int quantity)
+        {
+            ProductId = productId;
+            ProductName = productName;
+            UnitPrice = unitPrice;
+            Quantity = quantity;
+            UpdatedAt = DateTime.UtcNow;
+        }
     }
 }

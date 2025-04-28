@@ -43,7 +43,7 @@ namespace Ambev.DeveloperEvaluation.Application.Products.UpdateProduct
 
             var product = await _productRepository.GetByIdAsync(command.Id, cancellationToken);
             if (product is null)
-                throw new InvalidOperationException($"Product with id {command.Id} already exists");
+                throw new InvalidOperationException($"Product with id {command.Id} not exists");
 
             var existingProduct = await _productRepository.GetByNameAsync(command.Name, cancellationToken);
             if (existingProduct is not null && existingProduct.Id != command.Id)

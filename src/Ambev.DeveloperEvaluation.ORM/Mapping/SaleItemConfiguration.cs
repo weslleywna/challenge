@@ -17,7 +17,6 @@ namespace Ambev.DeveloperEvaluation.ORM.Mapping
             builder.Property(e => e.UnitPrice).IsRequired().HasPrecision(10, 2);
             builder.Property(e => e.Quantity).IsRequired();
             builder.Property(e => e.Discount).IsRequired().HasPrecision(10, 2);
-            builder.Property(e => e.TotalAmount).IsRequired().HasPrecision(10, 2);
             builder.Property(e => e.CreatedAt).IsRequired();
             builder.Property(e => e.UpdatedAt).IsRequired(false);
         }

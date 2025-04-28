@@ -13,5 +13,15 @@ namespace Ambev.DeveloperEvaluation.Domain.Entities
         public bool IsCancelled { get; set; } = false;
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
+
+        public void Update(DateTime saleDate, string customerName, string branch, List<SaleItem> saleItems)
+        {
+            SaleDate = saleDate;
+            CustomerName = customerName;
+            Items = saleItems;
+            Branch = branch;
+            TotalAmount = Items.Sum(i => i.UnitPrice * i.Quantity);
+            UpdatedAt = DateTime.UtcNow;
+        }
     }
 }

@@ -10,83 +10,87 @@ using Ambev.DeveloperEvaluation.Application.Products.GetProduct;
 using Ambev.DeveloperEvaluation.WebApi.Features.Products.DeleteProduct;
 using Ambev.DeveloperEvaluation.WebApi.Features.Products.UpdateProduct;
 using Ambev.DeveloperEvaluation.Application.Products.UpdateProduct;
+using Ambev.DeveloperEvaluation.WebApi.Features.Sales.CreateSale;
+using Ambev.DeveloperEvaluation.Application.Sales.CreateSale;
+using Ambev.DeveloperEvaluation.WebApi.Features.Sales.UpdateSale;
+using Ambev.DeveloperEvaluation.Application.Sales.UpdateSale;
 
-namespace Ambev.DeveloperEvaluation.WebApi.Features.Products;
+namespace Ambev.DeveloperEvaluation.WebApi.Features.Sales;
 
 /// <summary>
-/// Controller for managing product operations
+/// Controller for managing sale operations
 /// </summary>
 [ApiController]
 [Route("api/[controller]")]
-public class ProductsController : BaseController
+public class SalesController : BaseController
 {
     private readonly IMediator _mediator;
     private readonly IMapper _mapper;
 
     /// <summary>
-    /// Initializes a new instance of ProductsController
+    /// Initializes a new instance of SalesController
     /// </summary>
     /// <param name="mediator">The mediator instance</param>
     /// <param name="mapper">The AutoMapper instance</param>
-    public ProductsController(IMediator mediator, IMapper mapper)
+    public SalesController(IMediator mediator, IMapper mapper)
     {
         _mediator = mediator;
         _mapper = mapper;
     }
 
     /// <summary>
-    /// Creates a new product
+    /// Creates a new sale
     /// </summary>
-    /// <param name="request">The user creation request</param>
+    /// <param name="request">The sale creation request</param>
     /// <param name="cancellationToken">Cancellation token</param>
-    /// <returns>The created user details</returns>
+    /// <returns>The created sale details</returns>
     [HttpPost]
-    [ProducesResponseType(typeof(ApiResponseWithData<CreateProductResponse>), StatusCodes.Status201Created)]
+    [ProducesResponseType(typeof(ApiResponseWithData<CreateSaleResponse>), StatusCodes.Status201Created)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
-    public async Task<IActionResult> CreateProduct([FromBody] CreateProductRequest request, CancellationToken cancellationToken)
+    public async Task<IActionResult> CreateSale([FromBody] CreateSaleRequest request, CancellationToken cancellationToken)
     {
-        var validator = new CreateProductRequestValidator();
+        var validator = new CreateSaleRequestValidator();
         var validationResult = await validator.ValidateAsync(request, cancellationToken);
 
         if (!validationResult.IsValid)
             return BadRequest(validationResult.Errors);
 
-        var command = _mapper.Map<CreateProductCommand>(request);
+        var command = _mapper.Map<CreateSaleCommand>(request);
         var response = await _mediator.Send(command, cancellationToken);
 
-        return Created(string.Empty, new ApiResponseWithData<CreateProductResponse>
+        return Created(string.Empty, new ApiResponseWithData<CreateSaleResponse>
         {
             Success = true,
-            Message = "Product created successfully",
-            Data = _mapper.Map<CreateProductResponse>(response)
+            Message = "Sale created successfully",
+            Data = _mapper.Map<CreateSaleResponse>(response)
         });
     }
 
     /// <summary>
-    /// Update a product
+    /// Update a sale
     /// </summary>
-    /// <param name="request">The product update request</param>
+    /// <param name="request">The sale update request</param>
     /// <param name="cancellationToken">Cancellation token</param>
-    /// <returns>The updated product details</returns>
+    /// <returns>The updated sale details</returns>
     [HttpPut]
-    [ProducesResponseType(typeof(ApiResponseWithData<UpdateProductResponse>), StatusCodes.Status201Created)]
+    [ProducesResponseType(typeof(ApiResponseWithData<UpdateSaleResponse>), StatusCodes.Status201Created)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
-    public async Task<IActionResult> UpdateProduct([FromBody] UpdateProductRequest request, CancellationToken cancellationToken)
+    public async Task<IActionResult> UpdateProduct([FromBody] UpdateSaleRequest request, CancellationToken cancellationToken)
     {
-        var validator = new UpdateProductRequestValidator();
+        var validator = new UpdateSaleRequestValidator();
         var validationResult = await validator.ValidateAsync(request, cancellationToken);
 
         if (!validationResult.IsValid)
             return BadRequest(validationResult.Errors);
 
-        var command = _mapper.Map<UpdateProductCommand>(request);
+        var command = _mapper.Map<UpdateSaleCommand>(request);
         var response = await _mediator.Send(command, cancellationToken);
 
-        return Created(string.Empty, new ApiResponseWithData<UpdateProductResponse>
+        return Created(string.Empty, new ApiResponseWithData<UpdateSaleResponse>
         {
             Success = true,
-            Message = "Product created successfully",
-            Data = _mapper.Map<UpdateProductResponse>(response)
+            Message = "User created successfully",
+            Data = _mapper.Map<UpdateSaleResponse>(response)
         });
     }
 
@@ -115,7 +119,7 @@ public class ProductsController : BaseController
         return Ok(new ApiResponseWithData<GetProductResponse>
         {
             Success = true,
-            Message = "Product retrieved successfully",
+            Message = "User retrieved successfully",
             Data = _mapper.Map<GetProductResponse>(response)
         });
     }
@@ -145,7 +149,7 @@ public class ProductsController : BaseController
         return Ok(new ApiResponse
         {
             Success = true,
-            Message = "Product deleted successfully"
+            Message = "User deleted successfully"
         });
     }
 }

@@ -4,9 +4,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Ambev.DeveloperEvaluation.ORM.Repositories;
 
-/// <summary>
-/// Implementation of IProductRepository using Entity Framework Core
-/// </summary>
 public class ProductRepository : IProductRepository
 {
     private readonly DefaultContext _context;

@@ -17,7 +17,6 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.UpdateSale
         /// </summary>
         /// <param name="saleRepository">The sale repository</param>
         /// <param name="productRepository">The product repository</param>
-        /// <param name="unitOfWork">Unit of work.</param>
         /// <param name="mapper">The AutoMapper instance</param>
         public UpdateSaleHandler(
             ISaleRepository saleRepository,
@@ -30,11 +29,11 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.UpdateSale
         }
 
         /// <summary>
-        /// Handles the CreateProductCommand request
+        /// Handles the UpdateSaleCommand request
         /// </summary>
-        /// <param name="command">The CreateProduct command</param>
+        /// <param name="command">The UpdateSale command</param>
         /// <param name="cancellationToken">Cancellation token</param>
-        /// <returns>The created product details</returns>
+        /// <returns>The updated sale details</returns>
         public async Task<UpdateSaleResult> Handle(UpdateSaleCommand command, CancellationToken cancellationToken)
         {
             var validator = new UpdateSaleValidator();
@@ -45,7 +44,7 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.UpdateSale
 
             var sale = await _saleRepository.GetByIdAsync(command.SaleId, cancellationToken);
             if (sale is null)
-                throw new InvalidOperationException($"Product with id {command.SaleId} not exists");
+                throw new InvalidOperationException($"Sale with id {command.SaleId} not exists");
 
             var saleItems = ManageItems(sale, command.Items.ToList());
 

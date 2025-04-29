@@ -20,7 +20,7 @@ public interface IProductRepository
     /// </summary>
     /// <param name="product">The product updated</param>
     /// <param name="cancellationToken">Cancellation token</param>
-    /// <returns>The created product</returns>
+    /// <returns>The updated product</returns>
     Task<Product> UpdateAsync(Product product, CancellationToken cancellationToken = default);
 
     /// <summary>

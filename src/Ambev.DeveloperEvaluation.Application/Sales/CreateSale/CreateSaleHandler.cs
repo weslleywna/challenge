@@ -17,7 +17,6 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.CreateSale
         /// </summary>
         /// <param name="saleRepository">The sale repository</param>
         /// <param name="productRepository">The product repository</param>
-        /// <param name="unitOfWork">Unit of work.</param>
         /// <param name="mapper">The AutoMapper instance</param>
         public CreateSaleHandler(
             ISaleRepository saleRepository,
@@ -30,11 +29,11 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.CreateSale
         }
 
         /// <summary>
-        /// Handles the CreateProductCommand request
+        /// Handles the CreateSaleCommand request
         /// </summary>
-        /// <param name="command">The CreateProduct command</param>
+        /// <param name="command">The CreateSale command</param>
         /// <param name="cancellationToken">Cancellation token</param>
-        /// <returns>The created product details</returns>
+        /// <returns>The created sale details</returns>
         public async Task<CreateSaleResult> Handle(CreateSaleCommand command, CancellationToken cancellationToken)
         {
             var validator = new CreateSaleValidator();

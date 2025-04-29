@@ -3,6 +3,9 @@ using MediatR;
 
 namespace Ambev.DeveloperEvaluation.Application.Sales.CreateSale
 {
+    /// <summary>
+    /// Command for creating a new sale.
+    /// </summary>
     public class CreateSaleCommand : IRequest<CreateSaleResult>
     {
         public string CustomerName { get; set; } = string.Empty;

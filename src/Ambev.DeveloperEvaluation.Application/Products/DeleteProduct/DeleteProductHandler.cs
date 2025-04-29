@@ -38,7 +38,7 @@ namespace Ambev.DeveloperEvaluation.Application.Products.DeleteProduct
 
             var success = await _productRepository.DeleteAsync(request.Id, cancellationToken);
             if (!success)
-                throw new KeyNotFoundException($"User with ID {request.Id} not found");
+                throw new KeyNotFoundException($"Product with ID {request.Id} not found");
 
             return new DeleteProductResponse { Success = true };
         }

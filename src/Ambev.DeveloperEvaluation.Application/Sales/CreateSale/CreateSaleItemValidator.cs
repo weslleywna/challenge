@@ -12,7 +12,7 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.CreateSale
 
             RuleFor(x => x.UnitPrice).GreaterThan(0).WithMessage("The unit price must be greater than 0.");
 
-            RuleFor(x => x.Quantity).GreaterThan(0).WithMessage("The quantity must be greater than 0.");
+            RuleFor(x => x.Quantity).GreaterThan(0).LessThanOrEqualTo(20).WithMessage("The quantity must be greater than 0 and lesser or equal to 20.");
         }
     }
 }

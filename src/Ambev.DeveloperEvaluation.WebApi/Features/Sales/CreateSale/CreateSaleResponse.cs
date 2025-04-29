@@ -9,8 +9,5 @@
         public decimal TotalAmount { get; set; }
         public string? Branch { get; set; }
         public ICollection<CreateSaleItemResponse>? Items { get; set; }
-        public bool IsCancelled { get; set; } = false;
-        public DateTime CreatedAt { get; set; }
-        public DateTime? UpdatedAt { get; set; }
     }
 }

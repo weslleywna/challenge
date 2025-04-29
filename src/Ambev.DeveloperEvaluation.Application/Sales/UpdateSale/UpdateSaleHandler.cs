@@ -1,5 +1,7 @@
-﻿using Ambev.DeveloperEvaluation.Domain.Entities;
+﻿using Ambev.DeveloperEvaluation.Application.Sales.Services;
+using Ambev.DeveloperEvaluation.Domain.Entities;
 using Ambev.DeveloperEvaluation.Domain.Repositories;
+using Ambev.DeveloperEvaluation.Domain.Services;
 using AutoMapper;
 using FluentValidation;
 using MediatR;
@@ -10,6 +12,7 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.UpdateSale
     {
         private readonly ISaleRepository _saleRepository;
         private readonly IProductRepository _productRepository;
+        private readonly ISaleItemService _saleItemService;
         private readonly IMapper _mapper;
 
         /// <summary>
@@ -21,10 +24,12 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.UpdateSale
         public UpdateSaleHandler(
             ISaleRepository saleRepository,
             IProductRepository productRepository,
+            ISaleItemService saleItemService,
             IMapper mapper)
         {
             _saleRepository = saleRepository;
             _productRepository = productRepository;
+            _saleItemService = saleItemService;
             _mapper = mapper;
         }
 
@@ -42,11 +47,11 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.UpdateSale
             if (!validationResult.IsValid)
                 throw new ValidationException(validationResult.Errors);
 
-            var sale = await _saleRepository.GetByIdAsync(command.SaleId, cancellationToken);
+            var sale = await _saleRepository.GetByIdAsyncWithItems(command.SaleId, cancellationToken);
             if (sale is null)
                 throw new InvalidOperationException($"Sale with id {command.SaleId} not exists");
 
-            var saleItems = ManageItems(sale, command.Items.ToList());
+            var saleItems = await ManageItems(sale, command.Items.ToList());
 
             sale.Update(DateTime.UtcNow, command.CustomerName, command.Branch, saleItems);          
 
@@ -55,7 +60,7 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.UpdateSale
             return _mapper.Map<UpdateSaleResult>(sale);
         }
 
-        private static List<SaleItem> ManageItems(Sale sale, List<UpdateSaleItemCommand> items)
+        private async Task<List<SaleItem>> ManageItems(Sale sale, List<UpdateSaleItemCommand> items)
         {
             var updatedProductIds = items.Select(i => i.ProductId).ToHashSet();
 
@@ -67,23 +72,30 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.UpdateSale
 
                 if (existingItem != null)
                 {
-                    existingItem.ProductName = commandItem.ProductName;
-                    existingItem.UnitPrice = commandItem.UnitPrice;
                     existingItem.Quantity = commandItem.Quantity;
-                    existingItem.Discount = commandItem.Discount;
                     existingItem.UpdatedAt = DateTime.UtcNow;
+                    _saleItemService.CalculateDiscount(existingItem);
                 }
                 else
                 {
-                    sale.Items.Add(new SaleItem
+                    var product = await _productRepository.GetByIdAsync(commandItem.ProductId);
+
+                    if (product == null)
+                        throw new KeyNotFoundException($"Product with ID {commandItem.ProductId} not found");
+
+                    var newItem = new SaleItem
                     {
+                        ProductName = product.Name,
+                        UnitPrice = product.UnitPrice,
                         ProductId = commandItem.ProductId,
-                        ProductName = commandItem.ProductName,
-                        UnitPrice = commandItem.UnitPrice,
                         Quantity = commandItem.Quantity,
-                        Discount = commandItem.Discount,
-                        CreatedAt = DateTime.UtcNow
-                    });
+                        CreatedAt = DateTime.UtcNow,
+                        UpdatedAt = DateTime.UtcNow
+                    };
+
+                    _saleItemService.CalculateDiscount(newItem);
+
+                    sale.Items.Add(newItem);
                 }
             }
 

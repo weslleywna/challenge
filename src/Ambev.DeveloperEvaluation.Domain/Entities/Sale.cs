@@ -20,7 +20,7 @@ namespace Ambev.DeveloperEvaluation.Domain.Entities
             CustomerName = customerName;
             Items = saleItems;
             Branch = branch;
-            TotalAmount = Items.Sum(i => i.UnitPrice * i.Quantity);
+            TotalAmount = Items.Sum(item => item.Quantity * item.UnitPrice * (1 - item.Discount));
             UpdatedAt = DateTime.UtcNow;
         }
     }

@@ -12,12 +12,11 @@ namespace Ambev.DeveloperEvaluation.Domain.Entities
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
 
-        public void Update(Guid productId, string productName, decimal unitPrice, int quantity)
+        public void Update(Guid productId, int quantity, decimal discount)
         {
             ProductId = productId;
-            ProductName = productName;
-            UnitPrice = unitPrice;
             Quantity = quantity;
+            Discount = discount;
             UpdatedAt = DateTime.UtcNow;
         }
     }

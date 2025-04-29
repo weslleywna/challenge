@@ -23,5 +23,10 @@ namespace Ambev.DeveloperEvaluation.Domain.Entities
             TotalAmount = Items.Sum(item => item.Quantity * item.UnitPrice * (1 - item.Discount));
             UpdatedAt = DateTime.UtcNow;
         }
+
+        public void SetCancellationStatus(bool isCancelled)
+        {
+            IsCancelled = isCancelled;
+        }
     }
 }

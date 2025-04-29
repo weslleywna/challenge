@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Ambev.DeveloperEvaluation.Application.Users.DeleteUser;
-using FluentValidation;
+﻿using FluentValidation;
 
 namespace Ambev.DeveloperEvaluation.Application.Products.DeleteProduct
 {
@@ -14,7 +8,7 @@ namespace Ambev.DeveloperEvaluation.Application.Products.DeleteProduct
     public class DeleteProductValidator : AbstractValidator<DeleteProductCommand>
     {
         /// <summary>
-        /// Initializes validation rules for DeleteUserCommand
+        /// Initializes validation rules for DeleteProductCommand
         /// </summary>
         public DeleteProductValidator()
         {

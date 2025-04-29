@@ -14,6 +14,8 @@ using Ambev.DeveloperEvaluation.WebApi.Features.Sales.CreateSale;
 using Ambev.DeveloperEvaluation.Application.Sales.CreateSale;
 using Ambev.DeveloperEvaluation.WebApi.Features.Sales.UpdateSale;
 using Ambev.DeveloperEvaluation.Application.Sales.UpdateSale;
+using Ambev.DeveloperEvaluation.WebApi.Features.Sales.DeleteSale;
+using Ambev.DeveloperEvaluation.Application.Sales.DeleteSale;
 
 namespace Ambev.DeveloperEvaluation.WebApi.Features.Sales;
 
@@ -95,9 +97,9 @@ public class SalesController : BaseController
     }
 
     /// <summary>
-    /// Retrieves a user by their ID
+    /// Retrieves a sale by their ID
     /// </summary>
-    /// <param name="id">The unique identifier of the user</param>
+    /// <param name="id">The unique identifier of the sale</param>
     /// <param name="cancellationToken">Cancellation token</param>
     /// <returns>The user details if found</returns>
     [HttpGet("{id}")]
@@ -125,9 +127,9 @@ public class SalesController : BaseController
     }
 
     /// <summary>
-    /// Deletes a user by their ID
+    /// Deletes a sale by their ID
     /// </summary>
-    /// <param name="id">The unique identifier of the user to delete</param>
+    /// <param name="id">The unique identifier of the sale to delete</param>
     /// <param name="cancellationToken">Cancellation token</param>
     /// <returns>Success response if the user was deleted</returns>
     [HttpDelete("{id}")]
@@ -136,20 +138,20 @@ public class SalesController : BaseController
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
     public async Task<IActionResult> DeleteProduct([FromRoute] Guid id, CancellationToken cancellationToken)
     {
-        var request = new DeleteProductRequest { Id = id };
-        var validator = new DeleteProductRequestValidator();
+        var request = new DeleteSaleRequest { Id = id };
+        var validator = new DeleteSaleRequestValidator();
         var validationResult = await validator.ValidateAsync(request, cancellationToken);
 
         if (!validationResult.IsValid)
             return BadRequest(validationResult.Errors);
 
-        var command = _mapper.Map<DeleteProductCommand>(request.Id);
+        var command = _mapper.Map<DeleteSaleCommand>(request.Id);
         await _mediator.Send(command, cancellationToken);
 
         return Ok(new ApiResponse
         {
             Success = true,
-            Message = "User deleted successfully"
+            Message = "Sale deleted successfully"
         });
     }
 }
